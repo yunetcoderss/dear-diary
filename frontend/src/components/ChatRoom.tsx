@@ -57,7 +57,7 @@ const ChatRoom: React.FC<Props> = ({ persona, onReset }) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch('https://dear-diary-beige-one.vercel.app/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ persona, messages: [...messages, userMessage] })
