@@ -862,7 +862,7 @@ body::before {
   /* Sidebar becomes a compact top info bar */
   .sidebar {
     width: 100%;
-    border-radius: 0 0 24px 24px;
+    border-radius: 0;
     padding: 16px 20px;
     flex-direction: row;
     align-items: center;
@@ -1001,7 +1001,7 @@ body::before {
 @media (max-width: 600px) {
   .sidebar {
     padding: 12px 14px;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0;
   }
 
   .avatar-circle {

@@ -172,7 +172,7 @@ const ChatRoom: React.FC<Props> = ({ persona, onReset }) => {
             autoFocus
           />
           <button type="submit" className="btn-send" disabled={isLoading || !input.trim()}>
-            Kirim 💌
+            Kirim
           </button>
         </form>
       </div>
